@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<head>
-  <title>Gabriel Zurita</title>
+<html>
+  <head>
+    <title> Gabo</title>
   <style>
     body {
       text-align: center;
@@ -17,11 +18,89 @@
       border: 7px solid white;
       border-radius: 20px;
     }
+
+   /* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}    
+ul#menu li {
+    display: inline;
+}
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+ul#menu li a:hover {
+    background-color: orange;
+}
   </style>
-</head>
-<body>
-  <img src="http://imgur.com/s58qxpk.jpg">
-  <h1>About Me</h1>
-  <p>Hi! I'm Gabriel. I'm a Chilean-USA dual citizen currently residing in Chicago. I was born and have lived most of my life in Chile, though I feel no nationalism for Chile or any nation. I feel as if my experience of being raised in two countries has helped me to see past the socio-political, geographic boundaries that separate us. We are all just humans attempting to survive and hopefully thrive. The world seems small to me, and it doesn't seem that we're as far apart or as different as many of us think we are.</p>
-  <p>Email me at: gabezurita@gmail.com
-</body>
+  </head>
+  <body>
+    <nav>
+      <ul id="menu">
+       <li><a href="#">Home</a></li>
+       <li><a href="blog/index.html">Blog Posts</a></li>
+       <li><a href="#">Portfolio</a></li>
+       <li><a href="#">Resume</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Contact</a></li>
+      </ul>
+     </nav>
+
+     <header>
+       <h1>
+         <img src="http://imgur.com/s58qxpk.jpg" alt="this is a photo of Gabo">
+       </h1>
+     </header>
+     
+     <article>
+        <h2>
+         About Me
+        </h2>
+        <p>
+        Hi! I'm Gabo. I'm a Chilean-USA dual citizen currently residing in Chicago. I was born and have lived most of my life in Chile, though I feel more a citizen of the world. The experience of being raised in two countries has helped me to see past the socio-political, geographic boundaries that separate us. We're all just humans attempting to survive and hopefully thrive. At the moment, my attempt at thriving is trying to learn web development through Dev Bootcamp. Wish me luck!
+        </p>
+     </article>
+     
+     <hr>
+
+     <aside>
+      <h3>
+        Check out my blog posts!
+        </h3>
+       <ul id="menu">
+         <li><a href="blog/git.html">An Intro to Version Control</a></li>
+      </ul>
+     </aside>
+     
+     <hr>
+
+     <footer>
+       <ul id="menu">
+         <li><a href="https://www.facebook.com/gzurita">Facebook</a></li>
+         <li><a href="https://www.linkedin.com/in/gabriel-zurita-26678b15">Linkedin</a></li>
+         <li><a href="https://twitter.com/gabezurita">Twitter</a></li>
+      </ul>         
+     </footer>
+     
+  </body>
+  
+</html>
