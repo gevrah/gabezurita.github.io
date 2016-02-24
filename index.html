@@ -2,60 +2,12 @@
 <html>
   <head>
     <title> Gabo</title>
-  <style>
-    body {
-      text-align: center;
-      background: black;
-      color: white;
-      font-family: helvetica;
-    }
-    p {
-      font-size: 20px;
-      padding: 30px;
-    }
-    img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
-    }
 
-   /* unvisited link */
-a:link {
-    color: white;
-}
-
-/* visited link */
-a:visited {
-    color: white;
-}
-
-/* mouse over link */
-a:hover {
-    color: grey;
-}
-
-/* selected link */
-a:active {
-    color: blue;
-}    
-ul#menu li {
-    display: inline;
-}
-ul#menu li a {
-    background-color: black;
-    color: white;
-    padding: 10px 25px;
-    text-decoration: none;
-    border-radius: 4px 4px 0 0;
-}
-ul#menu li a:hover {
-    background-color: orange;
-}
-  </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <nav>
-      <ul id="menu">
+      <ul class="menu">
        <li><a href="#">Home</a></li>
        <li><a href="blog/index.html">Blog Posts</a></li>
        <li><a href="#">Portfolio</a></li>
@@ -64,21 +16,22 @@ ul#menu li a:hover {
        <li><a href="#">Contact</a></li>
       </ul>
      </nav>
-
+<main>
      <header>
        <h1>
-         <img src="http://imgur.com/s58qxpk.jpg" alt="this is a photo of Gabo">
+         <img src="imgs/Profile_Pic.jpg" alt="this is a photo of Gabo">
        </h1>
      </header>
      
      <article>
-        <h2>
+        <h1>
          About Me
-        </h2>
+        </h1>
         <p>
         Hi! I'm Gabo. I'm a Chilean-USA dual citizen currently residing in Chicago. I was born and have lived most of my life in Chile, though I feel more a citizen of the world. The experience of being raised in two countries has helped me to see past the socio-political, geographic boundaries that separate us. We're all just humans attempting to survive and hopefully thrive. At the moment, my attempt at thriving is trying to learn web development through Dev Bootcamp. Wish me luck!
         </p>
      </article>
+    </main>     
      
      <hr>
 
@@ -86,15 +39,15 @@ ul#menu li a:hover {
       <h3>
         Check out my blog posts!
         </h3>
-       <ul id="menu">
-         <li><a href="blog/git.html">An Intro to Version Control</a></li>
+       <ul class="menu">
+         <li><a href="blog/blog_entries/git.html">An Intro to Version Control</a></li>
       </ul>
      </aside>
      
      <hr>
 
      <footer>
-       <ul id="menu">
+       <ul class="menu">
          <li><a href="https://www.facebook.com/gzurita">Facebook</a></li>
          <li><a href="https://www.linkedin.com/in/gabriel-zurita-26678b15">Linkedin</a></li>
          <li><a href="https://twitter.com/gabezurita">Twitter</a></li>
