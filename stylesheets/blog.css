@@ -21,13 +21,13 @@ img {
     background: white;
 }
 
-.commit{
+.blogp {
 	margin: auto;
     align: center;
 	text-align: left;
 	display: block;
 	max-width: 45%;
-    display: block; 
+    margin-bottom: 10px;
 }
 
 span.question {

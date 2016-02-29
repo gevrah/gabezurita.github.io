@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Gabo's Blog</title>
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+    <meta charset="UTF-8">
+  </head>
+  
+  <nav>
+      <ul class="menu">
+       <li><a href="#">Home</a></li>
+       <li><a href="../../about/about.html">About: Me</a></li>
+       <li><a href="../blog/index.html">Blog</a></li>
+       <li><a href="#">Portfolio</a></li>
+       <li><a href="#">Contact</a></li>
+      </ul>
+     </nav>
+
+     <main>
+
+       <article>
+
+         <header>
+           <h1>
+             Display: Inline vs. Inline-Block
+           </h1>
+         </header>
+         
+          <p class=blogp>
+              The <a href="http://www.w3schools.com/cssref/pr_class_display.asp">display property</a> allows one to turn an inline element into a block element and vice-versa.
+          </p>
+
+          <p class=blogp>
+            The following image is a visual representation of the difference between inline elements and inline block elements (<a href="http://adamschwartz.co/magic-of-css/chapters/2-layout/">source</a>):
+          </p>
+
+          <figure>
+            <img src="../imgs/block-vs-inline-block.png" alt="inline vs. inline block">
+          </figure>
+
+           <p class=blogp>
+             To expound on the above: both Inline and inline-block elements allow other elements to sit to their left and to their right, although they have a few key differences. Inline elements respect left and right margins as well as padding, but they do not respect top and bottom. They also cannot have their height or width set. On the other hand, as can be seen above, inline-block elements do respect top and bottom margins/padding, and they respect height and width.
+            </p>
+
+            <p class=blogp>
+              An example of an inline element would be a span, which is a hook that occupies only the left and right space bounded by the tag. It does not respect top and bottom. By giving an element the CSS property of { display: inline }, one can make said element behave like a span. One useful application would be to make a top-of-the-page list of links into a horizontal nav bar by simply giving it the property:
+            </p>
+            
+            <figure>
+              <img src="../imgs/inline.png" alt="inline code image">
+            </figure>
+            
+            <p class=blogp>
+              Which would look like my site's nav link above:
+
+            <figure>
+              <img src="../imgs/inline-example.png" alt="inline example">
+            </figure>
+
+
+            <p class=blogp>
+              The { display: inline-block } property can force div, paragraph, and HTML5 semantics, and other elements to line-up side by side, and behave as if though  there were inline items that also respected top-bottom margins and padding. This can be very useful for displaying side-of-the-page nav bars or asides. In the following example, two article preview boxes are made to line up side by side:
+            </p>  
+
+            <figure>
+              <img src="../imgs/inline-block.png" alt="inline-block code image">
+            </figure>
+
+            <p class=blogp>
+              Which is an example from today's post 2016 Oscars Awards The Guardian Newspaper's front page:
+            </p>
+
+            <figure>
+              <img src="../imgs/inline-block-guardian.png" alt="inline-block example">
+            </figure>
+
+            <p class=blogp>
+              Way to go Leo! Also, sorry feminism...
+            </p>
+           
+
+       </article>
+
+      </main>
+     
+    <aside class="posts">
+
+      <h3>
+        Check out my other blog posts!
+      </h3>
+
+      <ul class="menu">
+         <li><a href="blog_entries/git.html">Feb. 13, 2016: An Intro to Version Control</a></li>
+         <li><a href="blog_entries/git.html">Feb. 28, 2016: Inilne vs. Inline-Block</a></li>
+      </ul>
+      
+    </aside>
+     
+     <footer>
+       <ul>
+         <li><a href="https://www.facebook.com/gzurita"><img src="../../imgs/Facebook.png" alt="Facebook Link"></a></li>
+         <li><a href="https://www.linkedin.com/in/gabriel-zurita-26678b15"><img src="../../imgs/linkedin.png" alt="LinkedIn Link"></a></li>
+         <li><a href="https://twitter.com/gabezurita"><img src="../../imgs/twitter-squared.png" alt="Twitter Link"></a></li>
+         <li><a href="https://github.com/gabezurita"><img src="../../imgs/github-icon.jpg" alt="GitHub Link"></a></li>
+         <li><a href="https://www.flickr.com/photos/gabezurita/"><img src="../../imgs/flickr.png" alt="Flickr Link"></a></li>
+      </ul>         
+     </footer>
+     
+  </body>
+  
+</html>
