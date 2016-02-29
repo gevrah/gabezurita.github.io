@@ -1,6 +1,5 @@
 http://gabezurita.github.io/blog/index.html
 
-
 • **What did you learn about CSS padding, borders, and margin by doing this challenge?**
 
 I learned that CSS padding was not as straightforward as I anticipated. Many times I was unable to get certain CSS elements to work because other CSS elements were affecting the HTML tag I was trying to style. It was frustrating that at times I could not get the styling right, but persevered and I feel as if now I have a better understanding of padding, borders, and margins.
