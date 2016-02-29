@@ -1,4 +1,4 @@
-http://gabezurita.github.io/blog/index.html
+http://gabezurita.github.io
 
 • **What did you learn about CSS padding, borders, and margin by doing this challenge?**
 
