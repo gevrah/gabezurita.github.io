@@ -1,0 +1,121 @@
+body {
+    text-align: center;
+    background: 
+        url("../imgs/Profile_Pic.jpg") #4c4c4c no-repeat;
+    background-position: 50% 25px;
+    background-color: black;
+    background-size: 45%;
+    font-family: helvetica;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+#about {
+    text-align: left;
+    font-size: 20px;
+    padding: 5px 2px 35px 2px;
+    max-width: 45%;
+    display: inline-block;
+}
+
+nav {
+    background-color: #4c4c4c;
+    width: 100%;
+    font-family: helvetica;
+    font-size: 130%;
+    display: inline-block;
+    text-shadow: 0 0 5px gray;
+}
+
+article.bottom {
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+}
+
+header {
+    padding-top: 1px;
+    padding-bottom: 2px;
+}
+
+.Hi {
+    margin: auto;
+    align: center;
+    width: 45%;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.Hi h1 {
+    font-size: 60px;
+    text-shadow: 0 0 3px gray;
+}
+
+.Hi h2 {
+    font-size: 30px;
+    text-shadow: 0 0 2px gray;
+
+}
+
+.Hi h3 {
+    font-size: 25px;
+    text-shadow: 0 0 2px gray;
+    padding-bottom: 25px;
+}
+
+.Hi li {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+footer {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer img {
+    width: 45px;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: white;
+}
+
+footer li {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul.menu li a {
+    color: white;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;
+}
+
+ul.menu li {
+    display: inline-block;
+}
+
+
+ul.menu li a:link {
+    color: white;
+}
+
+ul.menu li a:visited {
+    color: white;
+}
+
+ul.menu li a:hover {
+    color: #d8d8d8;
+}
+
+ul.menu li a:active {
+    color: white;
+}    
+
