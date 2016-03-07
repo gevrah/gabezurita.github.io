@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>[yourname] Blog Post</title>
+</head>
+<body>
+
+  <nav>
+    <ul class="menu">
+     <li><a href="#">Home</a></li>
+     <li><a href="about/about.html">About: Me</a></li>
+     <li><a href="blog/index.html">Blog</a></li>
+     <li><a href="#">Portfolio</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+ </nav>
+
+ <main>
+
+   <article>
+
+     <header>
+       <h1>
+         Hash vs Arrays
+       </h1>
+     </header>
+
+      <p>
+       In Ruby, while both Arrays and Hashes are ordered collections of elements, these two objects have key differences:
+       <p/>
+       <p>
+        An Array is ordered through a consecutive numerical index.
+        >> Star_Wars_Sequels = Array.new(["Episode IV","Episode V", "Episode VI"]) 
+        => [Episode IV, Episode V, Episode VI]
+        As can be seen, the Array is used to sequentially order the objects of the Array.
+      </p>
+      <p>
+        A Hash is ordered through being stored in pairs, each consisting of a key and a value. For example:
+        >> ratings = Hash.new
+        => ratings["Revenant"] = 10
+        In this example, we're not ordering the Hash object sequentially, we are merely assigning a rating value to the movie Revenant.
+      </p>
+
+    </article>
+
+  </main>
+
+  <aside class="posts">
+
+    <h3>
+      Check out my other blog posts!
+    </h3>
+
+    <ul class="menu">
+     <li><a href="blog/blog_entries/git.html">An Intro to Version Control</a></li>
+   </ul>
+
+ </aside>
+
+ <footer>
+   <ul>
+     <li><a href="https://www.facebook.com/gzurita"><img src="imgs/Facebook.png" alt="Facebook Link"></a></li>
+     <li><a href="https://www.linkedin.com/in/gabriel-zurita-26678b15"><img src="imgs/linkedin.png" alt="LinkedIn Link"></a></li>
+     <li><a href="https://twitter.com/gabezurita"><img src="imgs/twitter-squared.png" alt="Twitter Link"></a></li>
+     <li><a href="https://github.com/gabezurita"><img src="imgs/github-icon.jpg" alt="GitHub Link"></a></li>
+     <li><a href="https://www.flickr.com/photos/gabezurita/"><img src="imgs/flickr.png" alt="Flickr Link"></a></li>
+   </ul>         
+ </footer>
+
+</body>
+
+</html>
+Status API Training Shop Blog About Pricing
