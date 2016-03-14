@@ -23,6 +23,17 @@ body {
     display: inline-block;
 }
 
+#contact_form {
+    font-size: 20px;
+    font-family: helvetica;
+    margin: auto;
+    align: center;
+    background: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+}
+
 nav {
     background-color: #4c4c4c;
     width: 100%;
