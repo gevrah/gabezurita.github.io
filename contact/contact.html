@@ -11,28 +11,31 @@
     <nav>
       <ul class="menu">
        <li><a href="../index.html">Home</a></li>
-       <li><a href="about.html">About: Me</a></li>
+       <li><a href="../about.html">About: Me</a></li>
        <li><a href="../blog/index.html">Blog</a></li>
        <li><a href="#">Portfolio</a></li>
-       <li><a href="../contact/contact.html">Contact</a></li>
+       <li><a href="contact.html">Contact</a></li>
       </ul>
      </nav>
 
   <main>
-     
-     <article class="bottom">
-        
-        <header class="Hi">
-          <h2>
-           About Me
-          </h1>
-        </header>
+   
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <label for="name">Your name:</label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+      </div>
+      <div class="row">
+        <label for="email">Your email:</label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+      </div>
+      <div class="row">
+        <label for="message">Your message:</label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+      </div>
+      <input id="submit_button" type="submit" value="Send email" />
+    </form>   
 
-        <p class="Hi" Id="about">
-        Hi! I'm Gabo. I'm a Chilean-USA dual citizen currently residing in Chicago. I was born and have lived most of my life in Chile, though I feel more a citizen of the world. The experience of being raised in two countries has helped me to see past the socio-political, geographic boundaries that separate us. We're all just humans attempting to survive and hopefully thrive. At the moment, my attempt at thriving is trying to learn web development through Dev Bootcamp. Wish me luck!
-        </p>
-
-     </article>
     </main>     
 
      <footer>

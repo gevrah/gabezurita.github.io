@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 
 <html>
-  
-  <head>
+
+<head>
     <title> Gabo's Blog</title>
     <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
     <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
     <meta charset="UTF-8">
-  </head>
-  <body>
-  
+</head>
+<body>
+
   <nav>
       <ul class="menu">
        <li><a href="#">Home</a></li>
@@ -20,37 +20,49 @@
       </ul>
      </nav>
 
-     <main>
+ <main>
 
-       <article>
+   <article>
 
-         <header>
-           <h1>
-             Blog Entry Title
-           </h1>
-         </header>
-         
-           <p>
-             Blog Content Goes Here
-           </p>
+     <header>
+       <h1>
+         Hash vs Arrays
+       </h1>
+     </header>
 
-       </article>
+      <p>
+       In Ruby, while both Arrays and Hashes are ordered collections of elements, these two objects have key differences:
+       <p/>
+       <p>
+        An Array is ordered through a consecutive numerical index.
+        >> Star_Wars_Sequels = Array.new(["Episode IV","Episode V", "Episode VI"]) 
+        => [Episode IV, Episode V, Episode VI]
+        As can be seen, the Array is used to sequentially order the objects of the Array.
+      </p>
+      <p>
+        A Hash is ordered through being stored in pairs, each consisting of a key and a value. For example:
+        >> ratings = Hash.new
+        => ratings["Revenant"] = 10
+        In this example, we're not ordering the Hash object sequentially, we are merely assigning a rating value to the movie Revenant.
+      </p>
 
-      </main>
-     
-    <aside class="posts">
+    </article>
 
-      <h3>
-        Check out my other blog posts!
-      </h3>
+  </main>
 
-      <ul class="menu">
-         <li><a href="blog/blog_entries/git.html">An Intro to Version Control</a></li>
-      </ul>
-      
-    </aside>
-     
-       <footer>
+  <aside class="posts">
+
+    <h3>
+      Check out my other blog posts!
+    </h3>
+
+    <ul class="menu">
+     <li><a href="blog/blog_entries/git.html">An Intro to Version Control</a></li>
+   </ul>
+
+ </aside>
+
+  <footer>
        <ul>
          <li><a href="https://www.facebook.com/gzurita"><img src="../../imgs/Facebook.png" alt="Facebook Link"></a></li>
          <li><a href="https://www.linkedin.com/in/gabriel-zurita-26678b15"><img src="../../imgs/linkedin.png" alt="LinkedIn Link"></a></li>
@@ -59,7 +71,8 @@
          <li><a href="https://www.flickr.com/photos/gabezurita/"><img src="../../imgs/flickr.png" alt="Flickr Link"></a></li>
       </ul>         
      </footer>
-     
-  </body>
-  
+
+</body>
+
 </html>
+Status API Training Shop Blog About Pricing
