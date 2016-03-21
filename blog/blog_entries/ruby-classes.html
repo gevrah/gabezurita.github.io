@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <head>
+    <title> Gabo's Blog</title>
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../../stylesheets/blog.css">
+    <meta charset="UTF-8">
+  </head>
+  <body>
+  
+  <nav>
+      <ul class="menu">
+       <li><a href="../../index.html">Home</a></li>
+       <li><a href="../../about/about.html">About: Me</a></li>
+       <li><a href="../index.html">Blog</a></li>
+       <li><a href="#">Portfolio</a></li>
+       <li><a href="../../contact/contact.html">Contact</a></li>      
+       </ul>
+     </nav>
+
+     <main>
+
+       <article>
+
+         <header>
+           <h1>
+             Ruby Classes
+           </h1>
+         </header>
+         
+           <p class=blogp>
+             In Ruby, classes are a way to expand one's program beyond individual methods. Classes allow developers to assign attributes (attr_) and pass specific methods to these attributes. Classes also allow us to pass variables between methods of these classes through the use of instance variables (@variable). Here's an example:
+           </p>
+
+            <figure>
+              <img src="../imgs/Ruby_Class_Rider.png" alt="Class Example">
+            </figure>
+
+            <p class=blogp>
+             What you see above is a new class called Bicycle. In line 1, I defined the class. In lines 3 through 5, I gave my new Bicycle class 3 attributes: an owner, a type, and a rider. Attribute methods allow for the decreasing of repetitiveness in defining instance variables in code. The attribute reader method is a concise way of creating a method that reads and returns the value of the instance variable with the same name as the method. Like the reader method, the writer method allows one to write or set instance variables in a more concise way. An attr_accessor method combines the functionality of both the reader and the writer method into one, and is thus even more concise. In lines 7 through 11, I defined a method which allows me to assign values to my bicycles attributes.
+           </p>
+
+           <p class=blogp>
+             Once I've finished creating and defining the parameters of my new class, I went ahead and tested my new class in lines 19 through 21. I made my rider ride and this was the result:
+           </p>
+
+            <figure>
+              <img src="../imgs/Ruby_Class_Rider_Ride.png" alt="Ruby Rider Ride">
+            </figure>
+
+            <p class=blogp>
+             Ruby classes are great ways to simulate real world objects within Ruby. This is just a very simple application of the concept. Why don't you try making your own Ruby class?
+           </p>
+
+       </article>
+
+      </main>
+     
+    <aside class="posts">
+
+      <h3>
+        Check out my other blog posts!
+      </h3>
+
+      <ul class="menu">
+         <li><a href="blog/blog_entries/git.html">An Intro to Version Control</a></li>
+      </ul>
+      
+    </aside>
+     
+       <footer>
+       <ul>
+          <li><a href="https://www.facebook.com/gzurita"><img src="../../imgs/Facebook.png" alt="Facebook Link"></a></li>
+         <li><a href="https://www.linkedin.com/in/gabriel-zurita-26678b15"><img src="../../imgs/linkedin.png" alt="LinkedIn Link"></a></li>
+         <li><a href="https://twitter.com/gabezurita"><img src="../../imgs/twitter-squared.png" alt="Twitter Link"></a></li>
+         <li><a href="https://github.com/gabezurita"><img src="../../imgs/github-icon.jpg" alt="GitHub Link"></a></li>
+         <li><a href="https://www.flickr.com/photos/gabezurita/"><img src="../../imgs/flickr.png" alt="Flickr Link"></a></li>
+      </ul>         
+     </footer>
+     
+  </body>
+  
+</html>
